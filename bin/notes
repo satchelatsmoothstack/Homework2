@@ -1,0 +1,45 @@
+Exception Handling
+	never stop program from running
+	if (when) error occurs make error handling 
+		to account for it
+	Null point is most common exception
+		use try and catch for NullPointerException.npe	
+
+	you want everything in java to be an object
+		very rarely will we work with primitive data types
+	
+	java does not handle multiple inheritence
+		interface is a work around
+			does not have constructor
+				only reason why abstract classes are not obsolete
+		instance is not a class
+	java in 1.8 added default methods
+	java in 1.8 also added static method
+		dont need to define,
+		if you want to use it, 
+			you call it at interface class level
+		major update, most popular version in years
+	
+	
+	
+	
+	
+	
+	
+	
+	
+package com.ss.jb.two;
+
+public class ExceptionDemo{
+	public static void main
+				
+		public Boolean compareSTR(String str){
+			try{
+				if("MAGIC WORD".equals(str)){
+					return Boolean TRUE;
+				}
+				return Boolean False;
+				}
+			} catch (NullPointerEsception.npe){
+				return null;}
+				catch (FileNotFound fnfe}
